@@ -1,15 +1,46 @@
 {% include header.html %}
 
+
   <div class="container">
 
     <span class="left-content">
-      <img src="/img/cartoon-keys-success-v2.png" class="landing-cartoon"/>
-      <div class="landing-text">{{ content }}</div>
+      <div class="landing-text" id="title-fade-block">
+        <span id="landing-text-1">The </span><span id="landing-text-2">Shape</span><br><br>
+        <span id="landing-text-3">of</span> <br><br>
+        <span id="landing-text-4">College</span><br><br><br><br>
+      </div>
+      <div class="landing-text" id="landing-content">is a blah blah blah blah</div>
+      fade paragraphs, fade shape of college title on scroll and fade in sidebar words
+      one paragraph intro
+      click subscribe, double blink that part of the site. to navigate.
+      about-coming soon or refer to edspective. (nothing about team, just contact email)
+      feedback and teammates welcome.
       <div class="text-end"></div>
     </span>
 
     {% include sidebar.html %}
 
   </div>
+
+  <script>
+    $('#sidebar-wrapper').hide();
+    var delay_1 = 300;
+    var delay_2 = 350;
+    var delay_3 = 500;
+    var delay_4 = 550;
+    var delay_5 = 1000;
+
+    setTimeout(function(){ $('#landing-text-1').css('visibility', 'visible'); }, delay_1);
+    setTimeout(function(){ $('#landing-text-2').css('visibility', 'visible'); }, delay_2);
+    setTimeout(function(){ $('#landing-text-3').css('visibility', 'visible'); }, delay_3);
+    setTimeout(function(){ $('#landing-text-4').css('visibility', 'visible'); }, delay_4);
+    setTimeout(function(){ $('#landing-content').css('visibility', 'visible'); }, delay_5);
+    setTimeout(function(){ $('#sidebar-wrapper').show(); }, delay_5);
+    $(window).scroll(function (event) {
+      var scroll = $(window).scrollTop();
+      console.log(scroll);
+      $("#landing-text-4").fadeTo(0, 1-scroll/135);
+    });
+  </script>
 
 {% include footer.html %}
