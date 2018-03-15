@@ -1,0 +1,10 @@
+<div class="title-date-link-wrapper">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <div class="title">
+      {{ post.title }}
+    </div>
+    <div class="date">
+      {{ post.date | date: "%m / %d / %y"}}
+    </div>
+  </a>
+</div>

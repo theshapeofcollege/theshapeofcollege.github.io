@@ -1,0 +1,381 @@
+:root {
+  --subscribe-border: #9b9b9b;
+  --subscribe-highlight: #d3d3d3;
+  --subscribe-dark: #6c6e70;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+
+a {
+  color: #4020d6;
+  text-decoration: none;
+  transition: all 0.23s ease-in-out 0s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-banner {
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  margin: 0 auto;
+  text-align: center;
+  background: black;
+  z-index: 3;
+}
+
+.article-text {
+  display: block;
+  width: 65%;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 75px;
+}
+
+.article-title {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 65%;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.article-date {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 65%;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+.left-content {
+  height: 100%;
+  width: 75%;
+  float:left; /* add this */
+  margin: auto;
+}
+
+.landing-cartoon {
+  display: block;
+  width: 75%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-text {
+  display: block;
+  width: 65%;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+.text-end {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  border-top: 1.5px solid black;
+}
+
+.right-half {
+  position: fixed;
+  width:25%;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+  background: black;
+}
+
+.right-upper {
+  height: 30%;
+  float: top;
+  margin: 0 auto;
+}
+
+.right-lower {
+  height: 70%;
+  margin: 0 auto;
+}
+
+.subscribe-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  font-family: 'Lato',sans-serif;
+}
+
+#mc_embed_signup {
+    background: black;
+    clear: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+#mc_embed_signup form {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+div.mc-field-group {
+  padding-bottom: 10px;
+}
+
+#mc_embed_signup input.email {
+  font-size: 24px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: var(--subscribe-highlight);
+  background-color: black;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0px 0.4em;
+  display: inline-block;
+  margin: 0;
+  width: 80%;
+  vertical-align: top;
+  box-shadow: 0;
+  outline: none;
+  border: 2px solid var(--subscribe-border);
+  transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup input.email:focus {
+  border: 2px solid var(--subscribe-highlight);
+  font-size: 18px;
+}
+
+#mc_embed_signup input.email::placeholder {
+  color: var(--subscribe-dark);
+}
+
+#mc_embed_signup .button {
+  font-size: 16px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+  letter-spacing: .03em;
+  color: var(--subscribe-highlight);
+  background-color: var(--subscribe-dark);
+  box-sizing: border-box;
+  height: 35px;
+  line-height: 32px;
+  padding: 0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+  border: 0;
+  outline: none;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: var(--subscribe-highlight);
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.recent-articles-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 65%;
+  background: black;
+  color: var(--subscribe-border);
+}
+
+.recent-articles-wrapper a {
+  color: var(--subscribe-dark);
+  transition: all 0.23s ease-in-out 0s;
+}
+
+.recent-articles-wrapper a:hover{
+  color: var(--subscribe-highlight);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title-date-link-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.title-date-link-wrapper .title {
+  padding-bottom: 5px;
+}
+
+.title-date-link-wrapper .date {
+  font-size: 12px;
+}
+
+.vertical-ellipsis {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.archive-link-wrapper {
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.banner-wrapper {
+  height: 35%;
+  width: 60%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  transition: all 0.23s ease-in-out 0s;
+}
+
+.banner-wrapper a:hover {
+  color: var(--subscribe-highlight);
+  text-decoration: none;
+}
+
+.banner-text-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(14%);
+}
+
+.vertical-letter {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 38px;
+  color: var(--subscribe-border);
+}
+
+.today {
+  text-align: right;
+  width: 95%;
+  font-size: 16px;
+  color: var(--subscribe-dark);
+}
+
+.copyright {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.banner-text {
+  font-size: 28px;
+  color: var(--subscribe-dark);
+}
+
+.archive-wrapper {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 110px;
+  padding-bottom: 60px;
+}
+
+.archive-wrapper h1 {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+}
+
+.archive-tile-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+}
+
+.archive-tile-wrapper .title {
+  padding-bottom: 5px;
+}
+
+.archive-tile-wrapper .date {
+  font-size: 16px;
+}
+
+p.read-more{
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  width: 55%;
+  padding: 40px;
+  font-size: 18px;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+  p.read-more{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    width: 85%;
+    padding: 0;
+    padding-bottom: 40px;
+    font-size: 16px;
+  }
+  .article{
+    margin: auto;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .icon-container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 13px;
+  }
+
+  img.about-head:focus{
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+
+
+}

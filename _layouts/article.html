@@ -1,0 +1,16 @@
+{% include header.html %}
+
+  <div class="container">
+
+    <span class="left-content">
+      <div class="article-date">{{ page.date | date: "%m / %d / %y" }}</div>
+      <div class="article-title">{{ page.title }}</div>
+      <div class="article-text">{{ content }}</div>
+      <div class="text-end"></div>
+    </span>
+
+    {% include sidebar.html %}
+
+  </div>
+
+{% include footer.html %}
