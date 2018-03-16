@@ -10,7 +10,7 @@
             </div>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1242e0bccdbc82a939d2aaf0f_19712947bd" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <div class="clear"><input type="submit" value="Send me new stories!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
         </form>
       </div>
@@ -19,20 +19,24 @@
   </div>
   <div class="right-lower">
     <div class="recent-articles-wrapper">
-      {% for post in site.posts offset:0 limit:3 %}
-        {% include title-date-link.html %}
-      {% endfor %}
-      <a href="/archive">
-        <div class="vertical-ellipsis">
-          &#8942;
-        </div>
-        <div class="archive-link-wrapper">
-          See all articles &rarr;
-        </div>
-      </a>
+      <div id="blink-articles">
+        {% for post in site.posts offset:0 limit:3 %}
+          {% include title-date-link.html %}
+        {% endfor %}
+      </div>
+      <div id="blink-archive">
+        <a href="/archive">
+          <div class="vertical-ellipsis">
+            &#8942;
+          </div>
+          <div class="archive-link-wrapper">
+            See all articles &rarr;
+          </div>
+        </a>
+      </div>
     </div>
 
-    <div class="banner-wrapper">
+    <div class="banner-wrapper" id="banner-wrapper">
       <a href="/">
         <div class="banner-text-wrapper">
           <span class="banner-text">The </span><span class="vertical-letter">Shape</span><br>

@@ -69,6 +69,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .top-banner {
@@ -101,6 +102,16 @@ a:hover {
   padding-bottom: 10px;
 }
 
+.article-author {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 65%;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
 .article-date {
   font-family: 'Lato', sans-serif;
   display: block;
@@ -111,6 +122,29 @@ a:hover {
   padding-top: 80px;
   padding-bottom: 30px;
   text-align: right;
+}
+
+.draft-date {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 65%;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+.back-arrow {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 75%;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 .left-content {
@@ -383,29 +417,36 @@ div.mc-field-group {
 
 #landing-text-1 {
   visibility: hidden;
+  color: #a0a0a0;
+  font-size: 75px;
 }
 
 #landing-text-2 {
   visibility: hidden;
+  color: #4f4f4f;
+  font-size: 96px;
 }
 
 #landing-text-3 {
   visibility: hidden;
+  color: #a0a0a0;
+  font-size: 75px;
 }
 
 #landing-text-4 {
   visibility: hidden;
+  color: #4f4f4f;
+  font-size: 96px;
 }
 
 #landing-content {
-  visibility: hidden;
   transition: all 0.6s ease-in-out 0s;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 #title-fade-block {
-  padding-top: 150px;
-  font-size: 48px;
+  padding-top: 75px;
+  padding-bottom: 35px;
 }
 
 p.read-more{

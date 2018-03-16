@@ -4,16 +4,28 @@
 
     <span class="left-content">
       <div class="landing-text" id="title-fade-block">
-        <span id="landing-text-1">The </span><span id="landing-text-2">Shape</span><br><br>
-        <span id="landing-text-3">of</span> <br><br>
-        <span id="landing-text-4">College</span><br><br><br><br>
+        <span style="padding-left:65px;"/><span id="landing-text-1">The </span><span id="landing-text-2">Shape</span><br>
+        <span style="padding-left:200px;"/><span id="landing-text-3">of</span> <br>
+        <span style="padding-left:160px;"/><span id="landing-text-4">College</span>
       </div>
-      <div class="landing-text" id="landing-content">is a blah blah blah blah</div>
-      fade paragraphs, fade shape of college title on scroll and fade in sidebar words
-      one paragraph intro
-      click subscribe, double blink that part of the site. to navigate.
-      about-coming soon or refer to edspective. (nothing about team, just contact email)
-      feedback and teammates welcome.
+      <div class="landing-text" id="landing-content">
+        <p id="landing-p1">
+          This project is an ever-evolving reflection on the college experience. Check out our <a id="show-latest-trigger">most recent stories</a> or <a id="show-archive-trigger">the full list</a>. If you like what you read, you may <a id="show-subscribe-trigger">sign up</a> to get an email when a new story comes out.
+        </p>
+        <p id="landing-p2">
+          We welcome any questions, feedback, topic requests, and especially inquiries from potential contributors! Let us know what we are doing well or if something can be improved. Reach the team via email: hi (snail) theshapeofcollege (point) com.
+        </p>
+        <p id="landing-p3">
+          To high school students: <i>may you gain perspective from these stories. We hope they help you understand yourself, the world, and the college experience. We believe that perspective is the key to navigating admissions.</i><br><br>
+
+          To parents: <i>may you give your children space, to think and act and learn independently. We hope they will discover self-empowerment and identity ahead of schedule through your supportive love. We are all either wistful or grateful that we did.</i><br><br>
+
+          To college students, professors, and the public: <i>may we all learn from each other to be understanding and kind. We hope that these stories remind us to step outside of our own shoes and recall that life is not so narrow.</i><br><br>
+
+          This project is dedicated to all our teachers.
+        </p>
+      </div>
+
       <div class="text-end"></div>
     </span>
 
@@ -22,24 +34,87 @@
   </div>
 
   <script>
-    $('#sidebar-wrapper').hide();
-    var delay_1 = 300;
-    var delay_2 = 350;
-    var delay_3 = 500;
-    var delay_4 = 550;
-    var delay_5 = 1000;
+  var run = true;
+
+//  if ($(window).width() < 960) {
+  // alert('Less than 960');
+//}
+//else {
+  // alert('More than 960');
+//}
+  if(run){
+    $('#sidebar-wrapper').fadeTo(0,0);
+    $('#banner-wrapper').fadeTo(0,0);
+    $('#banner-wrapper').css('transition','all 0.0s ease-in-out 0s');
+    $('#landing-p1').fadeTo(0,0);
+    $('#landing-p2').fadeTo(0,0);
+    $('#landing-p3').fadeTo(0,0);
+
+    var t = 200
+    var delay_1 = 700;
+    var delay_2 = delay_1 + t;
+    var delay_3 = delay_2 + 2*t;
+    var delay_4 = delay_3 + 2*t;
+
+    var delay_p_1 = delay_4 + 2*t;
+    var delay_p_2 = delay_p_1+2*t;
+    var delay_p_3 = delay_p_2+2*t;
+
+    var delay_sidebar = delay_p_1;
+
 
     setTimeout(function(){ $('#landing-text-1').css('visibility', 'visible'); }, delay_1);
     setTimeout(function(){ $('#landing-text-2').css('visibility', 'visible'); }, delay_2);
     setTimeout(function(){ $('#landing-text-3').css('visibility', 'visible'); }, delay_3);
     setTimeout(function(){ $('#landing-text-4').css('visibility', 'visible'); }, delay_4);
-    setTimeout(function(){ $('#landing-content').css('visibility', 'visible'); }, delay_5);
-    setTimeout(function(){ $('#sidebar-wrapper').show(); }, delay_5);
+
+    setTimeout(function(){ $('#landing-p1').fadeTo(2*t, 1); }, delay_p_1);
+    setTimeout(function(){ $('#landing-p2').fadeTo(2*t, 1); }, delay_p_2);
+    setTimeout(function(){ $('#landing-p3').fadeTo(2*t, 1); }, delay_p_3);
+
+    setTimeout(function(){ $('#sidebar-wrapper').fadeTo(8*t,1);  }, delay_sidebar);
+
     $(window).scroll(function (event) {
       var scroll = $(window).scrollTop();
       console.log(scroll);
-      $("#landing-text-4").fadeTo(0, 1-scroll/135);
+      if (scroll < 450) {
+        if (scroll < 350) {
+          $("#title-fade-block").fadeTo(0, 1-scroll/350);
+        }
+        if (scroll > 100) {
+          $("#banner-wrapper").fadeTo(0, (scroll-100)/350);
+        }
+      }
+
+
     });
+  } else {
+    $('#landing-text-1').css('visibility', 'visible');
+    $('#landing-text-2').css('visibility', 'visible');
+    $('#landing-text-3').css('visibility', 'visible');
+    $('#landing-text-4').css('visibility', 'visible');
+    $('#landing-content').css('visibility', 'visible');
+  }
+
+  function blink(elem){
+    var out_1 = t;
+    var in_1 = out_1+t;
+    var out_2 = in_1 + 2*t;
+    var in_2 = out_2 + t;
+    label = 'opacity';
+    out_value = '0';
+    in_value = '1';
+    setTimeout(function(){$(elem).css(label, out_value); }, out_1);
+    setTimeout(function(){$(elem).css(label, in_value); }, in_1);
+    setTimeout(function(){$(elem).css(label, out_value); }, out_2);
+    setTimeout(function(){$(elem).css(label, in_value); }, in_2);
+  }
+
+  document.getElementById("show-subscribe-trigger").onclick = () => {blink('#mc_embed_signup_scroll');};
+  document.getElementById("show-latest-trigger").onclick = () => {blink('#blink-articles');};
+  document.getElementById("show-archive-trigger").onclick = () => {blink('#blink-archive');};
+  document.getElementById("show-home-trigger").onclick = () => {blink('#banner-wrapper');};
+
   </script>
 
 {% include footer.html %}

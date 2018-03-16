@@ -7,8 +7,9 @@ data_dir: ./_data
 
 #collections
 collections:
-  - clippings
-  - social
+  previews:
+    output: true
+    permalink: /preview/:path/
 
 # Handling Reading
 safe:         false
@@ -41,6 +42,7 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 repository: trattner/trattner.github.io
 github: [metadata]
+previewurl: "/preview"
 
 # Outputting
 permalink:     /:title.html

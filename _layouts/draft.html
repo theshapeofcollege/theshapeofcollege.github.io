@@ -3,7 +3,8 @@
   <div class="container">
 
     <span class="left-content">
-      <div class="article-date">{{ page.date | date: "%m / %d / %y" }}</div>
+      <div class="back-arrow"><a href="/preview">&larr; preview list</a></div>
+      <div class="draft-date">{{ page.date | date: "%m / %d / %y" }}</div>
       <div class="article-title">{{ page.title }}</div>
       <div class="article-author">{{ page.author | prepend: 'By ' }}</div>
       <div class="article-text">{{ content }}</div>
