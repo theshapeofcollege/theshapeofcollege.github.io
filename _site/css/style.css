@@ -418,25 +418,28 @@ div.mc-field-group {
 #landing-text-1 {
   visibility: hidden;
   color: #a0a0a0;
-  font-size: 75px;
+  font-size: 8vw;
+  padding-left: 0.5vw;
 }
 
 #landing-text-2 {
   visibility: hidden;
   color: #4f4f4f;
-  font-size: 96px;
+  font-size: 10vw;
 }
 
 #landing-text-3 {
   visibility: hidden;
   color: #a0a0a0;
-  font-size: 75px;
+  font-size: 8vw;
+  padding-left: 11vw;
 }
 
 #landing-text-4 {
   visibility: hidden;
   color: #4f4f4f;
-  font-size: 96px;
+  font-size: 10vw;
+  padding-left: 7vw;
 }
 
 #landing-content {
@@ -446,7 +449,7 @@ div.mc-field-group {
 
 #title-fade-block {
   padding-top: 75px;
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 }
 
 p.read-more{
@@ -458,36 +461,80 @@ p.read-more{
   font-size: 18px;
 }
 
+.bottom-nav {
+  position: fixed;
+  height: 12%;
+  margin: 0 auto;
+  text-align: center;
+  background: black;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom-nav a {
+  color: white;
+}
+
+.bottom-nav a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.bottom-nav-link {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 12vh;
+  font-size: 24px;
+}
 
 
-@media only screen and (max-device-width: 480px) {
-
-  p.read-more{
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    width: 85%;
-    padding: 0;
-    padding-bottom: 40px;
-    font-size: 16px;
+@media only screen and (max-width: 1280px) {
+  .left-content {
+    width: 100%;
   }
-  .article{
-    margin: auto;
-    width: 75%;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .right-half {
+    display: none;
+    pointer-events: none;
+    cursor: default;
   }
-  .icon-container{
-    padding-top: 20px;
-    padding-bottom: 50px;
-    font-size: 13px;
+  #landing-text-1 {
+    padding-left: 6vw;
   }
-
-  img.about-head:focus{
-    opacity: 0.7;
-    filter: alpha(opacity=70); /* For IE8 and earlier */
+  #landing-text-3 {
+    padding-left: 19vw;
   }
+  #landing-text-4 {
+    padding-left: 15vw;
+  }
+  .text-end {
+    padding-bottom: 200px;
+  }
+  #bottom-nav {
+    opacity: 1;
+  }
+}
 
+@media only screen and (min-width: 1280px) {
+  .bottom-nav {
+    display: none;
+    pointer-events: none;
+    cursor: default;
+  }
+  #sidebar-wrapper {
+    opacity: 1;
+  }
+}
 
+@media only screen and (max-width: 720px) {
+  .landing-text {
+    font-size: 19px;
+  }
 }

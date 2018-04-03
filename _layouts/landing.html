@@ -4,9 +4,9 @@
 
     <span class="left-content">
       <div class="landing-text" id="title-fade-block">
-        <span style="padding-left:65px;"/><span id="landing-text-1">The </span><span id="landing-text-2">Shape</span><br>
-        <span style="padding-left:200px;"/><span id="landing-text-3">of</span> <br>
-        <span style="padding-left:160px;"/><span id="landing-text-4">College</span>
+        <span id="landing-text-1">The </span><span id="landing-text-2">Shape</span><br>
+        <span id="landing-text-3">of</span> <br>
+        <span id="landing-text-4">College</span>
       </div>
       <div class="landing-text" id="landing-content">
         <p id="landing-p1">
@@ -33,47 +33,50 @@
 
   </div>
 
+  {% include bottom-nav.html %}
+
   <script>
-  var run = true;
 
-//  if ($(window).width() < 960) {
-  // alert('Less than 960');
-//}
-//else {
-  // alert('More than 960');
-//}
-  if(run){
-    $('#sidebar-wrapper').fadeTo(0,0);
-    $('#banner-wrapper').fadeTo(0,0);
-    $('#banner-wrapper').css('transition','all 0.0s ease-in-out 0s');
-    $('#landing-p1').fadeTo(0,0);
-    $('#landing-p2').fadeTo(0,0);
-    $('#landing-p3').fadeTo(0,0);
+  //TODO fix bug of resize window no nav/sidebar appears (also links on landing don't do correct function)
 
-    var t = 200
-    var delay_1 = 700;
-    var delay_2 = delay_1 + t;
-    var delay_3 = delay_2 + 2*t;
-    var delay_4 = delay_3 + 2*t;
+  $('#sidebar-wrapper').fadeTo(0,0);
+  $('#banner-wrapper').fadeTo(0,0);
+  $('#banner-wrapper').css('transition','all 0.0s ease-in-out 0s');
+  $('#landing-p1').fadeTo(0,0);
+  $('#landing-p2').fadeTo(0,0);
+  $('#landing-p3').fadeTo(0,0);
+  $('#bottom-nav').fadeTo(0,0);
 
-    var delay_p_1 = delay_4 + 2*t;
-    var delay_p_2 = delay_p_1+2*t;
-    var delay_p_3 = delay_p_2+2*t;
+  var t = 200
+  var delay_1 = 700;
+  var delay_2 = delay_1 + t;
+  var delay_3 = delay_2 + 2*t;
+  var delay_4 = delay_3 + 2*t;
+  var delay_p_1 = delay_4 + 2*t;
+  var delay_p_2 = delay_p_1+2*t;
+  var delay_p_3 = delay_p_2+2*t;
+  var delay_sidebar = delay_p_1;
 
-    var delay_sidebar = delay_p_1;
+  setTimeout(function(){ $('#landing-text-1').css('visibility', 'visible'); }, delay_1);
+  setTimeout(function(){ $('#landing-text-2').css('visibility', 'visible'); }, delay_2);
+  setTimeout(function(){ $('#landing-text-3').css('visibility', 'visible'); }, delay_3);
+  setTimeout(function(){ $('#landing-text-4').css('visibility', 'visible'); }, delay_4);
 
+  setTimeout(function(){ $('#landing-p1').fadeTo(2*t, 1); }, delay_p_1);
+  setTimeout(function(){ $('#landing-p2').fadeTo(2*t, 1); }, delay_p_2);
+  setTimeout(function(){ $('#landing-p3').fadeTo(2*t, 1); }, delay_p_3);
 
-    setTimeout(function(){ $('#landing-text-1').css('visibility', 'visible'); }, delay_1);
-    setTimeout(function(){ $('#landing-text-2').css('visibility', 'visible'); }, delay_2);
-    setTimeout(function(){ $('#landing-text-3').css('visibility', 'visible'); }, delay_3);
-    setTimeout(function(){ $('#landing-text-4').css('visibility', 'visible'); }, delay_4);
-
-    setTimeout(function(){ $('#landing-p1').fadeTo(2*t, 1); }, delay_p_1);
-    setTimeout(function(){ $('#landing-p2').fadeTo(2*t, 1); }, delay_p_2);
-    setTimeout(function(){ $('#landing-p3').fadeTo(2*t, 1); }, delay_p_3);
-
+  if ($(window).width() <= 1280) {
+    document.getElementById("show-subscribe-trigger").onclick = () => {window.location.href='/subscribe'};
+    document.getElementById("show-latest-trigger").onclick = () => {window.location.href='/archive'};
+    document.getElementById("show-archive-trigger").onclick = () => {window.location.href='/archive'};
+    setTimeout(function(){ $('#bottom-nav').fadeTo(4*t,1);}, delay_p_3);
+  }
+  else {
     setTimeout(function(){ $('#sidebar-wrapper').fadeTo(8*t,1);  }, delay_sidebar);
-
+    document.getElementById("show-subscribe-trigger").onclick = () => {blink('#mc_embed_signup_scroll');};
+    document.getElementById("show-latest-trigger").onclick = () => {blink('#blink-articles');};
+    document.getElementById("show-archive-trigger").onclick = () => {blink('#blink-archive');};
     $(window).scroll(function (event) {
       var scroll = $(window).scrollTop();
       console.log(scroll);
@@ -85,15 +88,7 @@
           $("#banner-wrapper").fadeTo(0, (scroll-100)/350);
         }
       }
-
-
     });
-  } else {
-    $('#landing-text-1').css('visibility', 'visible');
-    $('#landing-text-2').css('visibility', 'visible');
-    $('#landing-text-3').css('visibility', 'visible');
-    $('#landing-text-4').css('visibility', 'visible');
-    $('#landing-content').css('visibility', 'visible');
   }
 
   function blink(elem){
@@ -109,11 +104,6 @@
     setTimeout(function(){$(elem).css(label, out_value); }, out_2);
     setTimeout(function(){$(elem).css(label, in_value); }, in_2);
   }
-
-  document.getElementById("show-subscribe-trigger").onclick = () => {blink('#mc_embed_signup_scroll');};
-  document.getElementById("show-latest-trigger").onclick = () => {blink('#blink-articles');};
-  document.getElementById("show-archive-trigger").onclick = () => {blink('#blink-archive');};
-  //document.getElementById("show-home-trigger").onclick = () => {blink('#banner-wrapper');};
 
   </script>
 
