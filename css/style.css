@@ -520,6 +520,9 @@ p.read-more{
   #bottom-nav {
     opacity: 1;
   }
+  .archive-wrapper {
+    padding-bottom: 180px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -537,4 +540,67 @@ p.read-more{
   .landing-text {
     font-size: 19px;
   }
+  .bottom-nav-link {
+    font-size: 16px;
+  }
+  .subscribe-thanks-big {
+    padding-top: 50px;
+    font-size: 24px;
+  }
+  .subscribe-thanks-med {
+    font-size: 18px;
+  }
+  .subscribe-thanks-small {
+    font-size: 14px;
+  }
+  .subscribe-thanks-tiny {
+    font-size: 11px;
+    padding-top: 60px;
+  }
+  .article-title {
+    width: 75%;
+    font-size: 30px;
+  }
+  .article-text {
+    font-size: 17px;
+    width: 75%;
+  }
+
+  .article-author {
+    width: 75%;
+    font-size: 19px;
+  }
+
+  .article-date {
+    width: 75%;
+    font-size: 15px;
+  }
+
+  .draft-date {
+    width: 75%;
+    font-size: 15px;
+  }
+
+  .back-arrow {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .landing-text {
+    font-size: 17px;
+    width: 75%;
+  }
+
+  .archive-wrapper h1 {
+    font-size: 32px;
+    padding-bottom: 5px;
+  }
+
+  .archive-tile-wrapper {
+    font-size: 22px;
+  }
+  .archive-tile-wrapper .date {
+    font-size: 13px;
+  }
+
 }
