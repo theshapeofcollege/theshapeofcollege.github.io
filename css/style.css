@@ -72,6 +72,10 @@ a:hover {
   cursor: pointer;
 }
 
+p {
+  padding-bottom: 17px;
+}
+
 .top-banner {
   position: fixed;
   width: 100%;
@@ -85,6 +89,7 @@ a:hover {
 .article-text {
   display: block;
   width: 65%;
+  line-height: 34px;
   font-size: 22px;
   margin-left: auto;
   margin-right: auto;
@@ -99,7 +104,7 @@ a:hover {
   font-size: 48px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
 }
 
 .article-author {
@@ -109,7 +114,7 @@ a:hover {
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
 }
 
 .article-date {
@@ -564,6 +569,7 @@ p.read-more{
   .article-text {
     font-size: 17px;
     width: 75%;
+    line-height: 25px;
   }
 
   .article-author {
@@ -601,6 +607,9 @@ p.read-more{
   }
   .archive-tile-wrapper .date {
     font-size: 13px;
+  }
+  p {
+    padding-bottom: 12px;
   }
 
 }
