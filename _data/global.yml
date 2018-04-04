@@ -1,5 +1,5 @@
 # Site Settings
-title: 'Andy Trattner'
-site-name: 'ALT Thoughts'
-description: 'ALT Thoughts - The digitized autobiographical mindspace of Andy Trattner.'
-url: 'http://localhost:8000' # the base hostname & protocol for your site
+title: 'The Shape of College'
+site-name: 'The Shape of College'
+description: 'A bunch of stories and perspectives on college, admissions, and life.'
+url: 'https://theshapeofcollege.com' # the base hostname & protocol for your site
