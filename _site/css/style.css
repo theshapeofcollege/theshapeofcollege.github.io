@@ -89,7 +89,7 @@ p {
 .article-text {
   display: block;
   width: 65%;
-  line-height: 34px;
+  line-height: 38px;
   font-size: 22px;
   margin-left: auto;
   margin-right: auto;
@@ -177,6 +177,11 @@ p {
   padding-top: 30px;
   padding-bottom: 75px;
 }
+
+#landing-content {
+  line-height: 34px;
+}
+
 
 .text-end {
   display: block;
@@ -544,6 +549,7 @@ p.read-more{
 @media only screen and (max-width: 720px) {
   .landing-text {
     font-size: 19px;
+    padding-bottom: 35px;
   }
   .bottom-nav-link {
     font-size: 16px;
@@ -569,9 +575,8 @@ p.read-more{
   .article-text {
     font-size: 17px;
     width: 75%;
-    line-height: 25px;
+    line-height: 29px;
   }
-
   .article-author {
     width: 75%;
     font-size: 19px;
@@ -610,6 +615,9 @@ p.read-more{
   }
   p {
     padding-bottom: 12px;
+  }
+  #landing-content {
+    line-height: 25px;
   }
 
 }

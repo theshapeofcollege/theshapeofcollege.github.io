@@ -10,19 +10,21 @@
       </div>
       <div class="landing-text" id="landing-content">
         <p id="landing-p1">
-          This project is an ever-evolving reflection on the college experience. Check out our <a id="show-latest-trigger">most recent stories</a> or <a id="show-archive-trigger">the full list</a>. If you like what you read, you may <a id="show-subscribe-trigger">sign up</a> to get an email when a new story comes out.
+          is a collection of stories outlining various perspectives on the college experience and how people move beyond admissions.
         </p>
         <p id="landing-p2">
-          We welcome any questions, feedback, topic requests, and especially inquiries from potential contributors! Let us know what we are doing well or if something can be improved. Reach the team via email: hi (snail) theshapeofcollege (point) com.
+          We publish weekly, and we welcome your participation! If you want to join the team, submit a story, ask a question, or give feedback, please email: hi (snail) theshapeofcollege (point) com.
         </p>
         <p id="landing-p3">
-          To high school students: <i>may you gain perspective from these stories. We hope they help you understand yourself, the world, and the college experience. We believe that perspective is the key to navigating admissions.</i><br><br>
+          <!--To high school students: <i>may you gain perspective from these stories. We hope they help you understand yourself, the world, and the college experience. We believe that perspective is the key to navigating admissions.</i><br><br>
 
           To parents: <i>may you give your children space, to think and act and learn independently. We hope they will discover self-empowerment and identity ahead of schedule through your supportive love. We are all either wistful or grateful that we did.</i><br><br>
 
-          To college students, professors, and the public: <i>may we all learn from each other to be understanding and kind. We hope that these stories remind us to step outside of our own shoes and recall that life is not so narrow.</i><br><br>
+          To college students, professors, and the public: <i>may we all learn from each other to be understanding and kind. We hope that these stories remind us to step outside of our own shoes and recall that life is not so narrow.</i><br><br>-->
+          Check out our <a id="show-latest-trigger">most recent stories</a> or <a id="show-archive-trigger">the full list</a>. If you like what you read, you may <a id="show-subscribe-trigger">sign up</a> to get an email when a new story comes out.<br><br><br>
 
           This project is dedicated to all our teachers.
+
         </p>
       </div>
 
@@ -81,11 +83,11 @@
       var scroll = $(window).scrollTop();
       console.log(scroll);
       if (scroll < 450) {
-        if (scroll < 350) {
-          $("#title-fade-block").fadeTo(0, 1-scroll/350);
+        if (scroll < 301) {
+          $("#title-fade-block").fadeTo(0, 1-scroll/300);
         }
         if (scroll > 100) {
-          $("#banner-wrapper").fadeTo(0, (scroll-100)/350);
+          $("#banner-wrapper").fadeTo(0, (scroll-100)/300);
         }
       }
     });

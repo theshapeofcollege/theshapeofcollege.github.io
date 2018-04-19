@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: article
 title: 'Planning In Pencil'
 author: Rachel Wittenberg
 date: 2018-2-13
@@ -32,4 +32,4 @@ I’m still learning and still growing. I’m figuring out what balance means to
 
 <br><br>
 
-<a href="https://drive.google.com/file/d/1CGngDQVPIcc6m3XxWq7kx0ADxQi5E6rc/view" target="_blank">Dental school personal statement</a>
+<a href="/img/applications/supp-1-rw-dental-statement.pdf" target="_blank">Dental school personal statement</a> &mdash; accepted, OHSU
