@@ -129,6 +129,15 @@ p {
   text-align: right;
 }
 
+.article-img {
+  display: block;
+  width: 65%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .draft-date {
   font-family: 'Lato', sans-serif;
   display: block;
@@ -509,6 +518,11 @@ p.read-more{
 @media only screen and (max-width: 1280px) {
   .left-content {
     width: 100%;
+  }
+  .article-img {
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .right-half {
     display: none;

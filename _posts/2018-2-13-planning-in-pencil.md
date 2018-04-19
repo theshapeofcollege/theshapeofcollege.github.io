@@ -3,9 +3,12 @@ layout: article
 title: 'Planning In Pencil'
 author: Rachel Wittenberg
 date: 2018-2-13
+image: "/img/pencil.png"
 ---
 
 I am a planner – as Type A as it gets. My day planner is color-coded, filled out for months in advance, with stickers and tabs and categories. I have to-do lists on my computer, my desk at home, my desk at work, and my kitchen. My email is sorted into different folders each day: to-dos, school, work, family, friends, service, extracurriculars, etc. When I wake up, I meticulously plan out the coming day, down to the hour, ensuring that I get everything done that I need to.
+
+<img src="{{ page.image }}" style="width:100%;"/>
 
 I know; it’s a lot. Sometimes I can be a little neurotic. It’s just my process. I’m goal-driven and by breaking down big projects, dreams, and goals into smaller tasks, I make sense of what it takes to achieve them. (Also, admittedly, I suffer from major FOMO and tend to be involved in as much as I can possibly cram on my plate.) Being active and busy makes me happy, fulfilled. Planning it all just keeps me sane. I have always been this way. My day planner from this semester, as a senior in college, looks just as crowded and organized as the one I used as a senior in high school. Notably, however, there is one significant difference – you no longer find my methodically scheduled timelines written in pen.
 

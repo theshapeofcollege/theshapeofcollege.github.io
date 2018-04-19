@@ -3,6 +3,9 @@
   <div class="container">
 
     <span class="left-content">
+      <!--{% if page.image %}
+        <img src={{ page.image }} class="article-img"/>
+      {% endif %}-->
       <div class="article-date">{{ page.date | date: "%m / %d / %y" }}</div>
       <div class="article-title">{{ page.title }}</div>
       <div class="article-author">{{ page.author | prepend: 'By ' }}</div>
