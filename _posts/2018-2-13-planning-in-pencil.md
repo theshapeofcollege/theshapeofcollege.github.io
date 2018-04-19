@@ -4,6 +4,7 @@ title: 'Planning In Pencil'
 author: Rachel Wittenberg
 date: 2018-2-13
 image: "/img/pencil.png"
+description: "My schedule became so packed that many of my commitments started falling through the cracks....I was lost and stuck in a rut. I wasn’t happy, and I wasn’t home. I didn’t know how to fix it."
 ---
 
 I am a planner – as Type A as it gets. My day planner is color-coded, filled out for months in advance, with stickers and tabs and categories. I have to-do lists on my computer, my desk at home, my desk at work, and my kitchen. My email is sorted into different folders each day: to-dos, school, work, family, friends, service, extracurriculars, etc. When I wake up, I meticulously plan out the coming day, down to the hour, ensuring that I get everything done that I need to.
