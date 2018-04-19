@@ -18,7 +18,7 @@
     </script>
 
     <!-- Open Graph Protocol (Social Media) -->
-    <meta property="og:url" content="{{page.url}}" />
+    <meta property="og:url" content="{{page.url | prepend: site.url}}" />
     <meta property="og:type"   content="article" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.data.global.title }}{% endif %}" />
     <meta property="og:locale" content="en_US" />
