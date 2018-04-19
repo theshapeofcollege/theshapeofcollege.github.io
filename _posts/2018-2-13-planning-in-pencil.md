@@ -2,7 +2,7 @@
 layout: article
 title: 'Planning In Pencil'
 author: Rachel Wittenberg
-date: 2018-2-13
+date: 2018-4-19
 image: "/img/pencil.png"
 description: "&ldquo;My schedule became so packed that many of my commitments started falling through the cracks....I was lost and stuck in a rut. I wasn’t happy, and I wasn’t home. I didn’t know how to fix it...&rdquo; &mdash; R. Wittenberg"
 ---
