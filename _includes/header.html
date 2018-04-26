@@ -25,6 +25,8 @@
     <meta property="og:site_name" content={{ site.data.global.site-name }} />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.global.description }}{% endif %}"/>
     <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}'https://theshapeofcollege.com/img/icon/shape-of-icon.png'{% endif %}" />
+    {% if page.image %}<meta property="og:image:width" content="1667"/>{% endif %}
+    {% if page.image %}<meta property="og:image:height" content="1000"/>{% endif %}
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/icon/shape-of-icon.png">
