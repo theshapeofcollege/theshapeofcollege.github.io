@@ -1,11 +1,15 @@
 ---
-layout: draft
+layout: article
 title: 'The Whys and the Whats'
 author: Catherine Zeng
-date: 2018-2-14
+date: 2018-4-26
+image: "/img/fermat.png"
+description: "&ldquo;...the 22 AP exams that I passed are completely meaningless to me now, even though they took up the bulk of my time in high school.&rdquo; &mdash; C. Zeng"
 ---
 
 When reading stories about wild accomplishments, I often wonder how people muster up the strength to attempt such challenging tasks. A good example is Andrew Wiles, who spent over six years proving Fermat’s Last Theorem, which had remained unproven for 358 years before. In order for Wiles to justify dedicating six years of his life to a single math problem, he must’ve been confident enough to believe that he could figure out what millions of mathematicians before him couldn’t, and developed enough resolve to justify to himself that solving this problem is worthwhile.
+
+<img src="{{ page.image }}" style="width:100%;"/>
 
 Before high school, I had never accomplished anything important. I used to read voraciously in elementary school, but stopped in middle school because it was seen as “uncool”. I participated in Math Counts, but the highest rank I ever received was 9th in my county. I built a balsa wood bridge but made it too wide so that only one side was supporting weight at the local bridge building competition. I never did anything *that* well… and I didn’t care.
 
@@ -27,8 +31,8 @@ Through running thethots.com, I also learned the importance of finding people to
 
 At MIT, my partner and I entered seven hackathons, winning a number of prizes that included Top 10 at HackMIT (2x) and Best Internet of Things Hack, which taught us how to be scrappy and deploy finished projects under limited time and resources. We recently were also accepted into Y Combinator with a self-serve bubble tea machine that we built (lambdatea.com), which we deployed in a friend’s dorm room to great success. Because of Lambda Tea, we recently took a leave of absence from MIT to live in San Francisco and work on our startup full-time.
 
-I think the most important part of growing up is about learning to think for yourself, developing values that you believe in, and forming relationships with people that share these values with whom you can grow with. A cool MIT alumnus once advised me, “the whys and the whats are often more important than the hows.” On a more tangible level, this means that for everything you’re doing in the present, stop and ask yourself questions like: “Are the reasons for my actions justifiable? Will what I’m doing now still be meaningful to me in ten years or twenty years? What do I truly care about?”
+I think the most important part of growing up is about learning to think for yourself, developing values that you believe in, and forming relationships with people that share these values with whom you can grow. A cool MIT alumnus once advised me, “the whys and the whats are often more important than the hows.” On a more tangible level, this means that for everything you’re doing in the present, stop and ask yourself questions like: “Are the reasons for my actions justifiable? Will what I’m doing now still be meaningful to me in ten years or twenty years? What do I truly care about?”
 
 <br><br>
 
-<a href="http://web.mit.edu/~yczeng/Public/MIT%20Optional%20Essay.pdf" target="_blank">MIT question 14</a>
+<a href="/img/applications/supp-2-cz-MIT.pdf" target="_blank">optional question 14</a> &mdash; accepted, MIT
