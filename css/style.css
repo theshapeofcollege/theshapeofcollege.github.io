@@ -471,6 +471,14 @@ div.mc-field-group {
   padding-bottom: 45px;
 }
 
+#pad-of {
+  padding-left: 65px;
+}
+#pad-college {
+  padding-left: 52px;
+}
+
+
 p.read-more{
   margin: auto;
   font-family: 'Montserrat', sans-serif;
@@ -516,6 +524,29 @@ p.read-more{
 
 
 @media only screen and (max-width: 1280px) {
+  .vertical-letter {
+    font-size: 26px;
+  }
+  .banner-text {
+    font-size: 28px;
+  }
+  .title-date-link-wrapper {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 13px;
+  }
+  .archive-link-wrapper {
+    font-size: 12px;
+  }
+  #pad-of {
+    padding-left: 35px;
+  }
+  #pad-college {
+    padding-left: 26px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
   .left-content {
     width: 100%;
   }
@@ -549,7 +580,7 @@ p.read-more{
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1000px) {
   .bottom-nav {
     display: none;
     pointer-events: none;

@@ -1,11 +1,15 @@
 ---
-layout: draft
+layout: article
 title: "Stanford Broke my Heart and it Grew Back Stronger"
 author: Sarah Spector
-date: 2018-2-15
+date: 2018-5-10
+image: '/img/stanford-heart.png'
+description: "&ldquo;My self-confidence was deeply shaken. I got so angry that I made the rash decision to gather up all my Stanford sweatshirts and t-shirts, rip them up, and cast them ceremoniously into the trash.&rdquo; &mdash; S. Spector"
 ---
 
-The only thing I’d ever really failed at in my life before senior year of high school was playing basketball, but at 5’3” that wasn’t exactly a shocker. Besides height-related activities, I found that whatever I tried—academics, standardized testing, student government, debate, even dating—could be mastered with hard work and dedication. I was never actively conscious of this at the time, but I now realize that back then, I believed that every aspect of my life was fully within my control, and, being a capable person, I therefore could not fail. I would never have admitted this to anyone else, but deep down, part of me expected to get into every college I applied to—most of all, Stanford University.
+The only thing I’d ever really failed at in my life before senior year of high school was playing basketball, but at 5’3” that wasn’t exactly a shocker. Besides height-related activities, I found that whatever I tried—academics, standardized testing, student government, debate, even dating—could be mastered with hard work and dedication. I was never actively conscious of this at the time, but I now realize that back then, I believed that every aspect of my life was fully within my control, and, being a capable person, I therefore could not fail. I would never have admitted this to anyone else, but deep down, part of me expected to get into every college I applied to&mdash;most of all, Stanford University.
+
+<img src="{{ page.image }}" style="width:100%;"/>
 
 I’ll skip most of the corny “Ever since I stepped onto Stanford’s campus...” part, but suffice it to say that I had my heart set on the school since attending an academic camp there the summer before my senior year. The place had a mythical aura; how could one school have the best reputation and the best weather, the most famous alumni and the most all-around successful athletic program, a location near the alluring Silicon Valley and a campus that belonged between the pages of a travel magazine? It was too good to be true, so naturally, it was the perfect school for me. Everyone at the camp said that if one of us was going to get in, it would be me.
 

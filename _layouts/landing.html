@@ -68,7 +68,7 @@
   setTimeout(function(){ $('#landing-p2').fadeTo(2*t, 1); }, delay_p_2);
   setTimeout(function(){ $('#landing-p3').fadeTo(2*t, 1); }, delay_p_3);
 
-  if ($(window).width() <= 1280) {
+  if ($(window).width() <= 1000) {
     document.getElementById("show-subscribe-trigger").onclick = () => {window.location.href='/subscribe'};
     document.getElementById("show-latest-trigger").onclick = () => {window.location.href='/archive'};
     document.getElementById("show-archive-trigger").onclick = () => {window.location.href='/archive'};
