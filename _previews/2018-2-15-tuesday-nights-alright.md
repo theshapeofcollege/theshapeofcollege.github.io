@@ -1,11 +1,15 @@
 ---
-layout: draft
+layout: article
 title: "Tuesday Night&#39;s Alright"
 author: Olivia Alger
-date: 2018-2-15
+date: 2018-5-17
+image: '/img/tues-night.png'
+description: "&ldquo;I’ve learned more about what it means to be alive by spending this year in the “real” world than I feel I could have on a college campus...&rdquo; &mdash; O. Alger"
 ---
 
 Last week, when I finished my first month living abroad in the orange tiled apartment of a French woman named Nadine, I walked down to a bar where a girl I know sings in Spanish every Tuesday night. It was like a teeny technicolor version of Rick’s cafe from Casablanca -- a cramped room dimly lit in red, the windows fogged with heat, a man at a wooden piano and a boy on bongos. The girl sang through the hazy space and waved as I unwound my scarf, the few people inside swaying sentimentally to the music.
+
+<img src="{{ page.image }}" style="width:100%;"/>
 
 I’m here on a gap program in Toulouse, a rosy town where McDonald’s serves espresso in delicate paper cups and people roll their own cigarettes in their laps on the metro. They talk in Southern mixes of French and Spanish on the terraces, while moving through the pink alleyways in a rainy aftermath of winter. In her apartment on the fourth floor, Nadine has decorated my bedroom with American flag patterned curtains. We drink tea from ceramic bowls at night and watch reality TV. There is so much I want to tell her, but I can only communicate so deeply until I run out of haphazard French sentiments.
 
@@ -21,4 +25,4 @@ In the bar, as the night swayed on, more people I knew arrived, friends I had me
 
 <br><br>
 
-<a href="https://drive.google.com/file/d/1_LONaY08vypcge6T_5fmxDaC7G7zeWow/view" target="_blank">Common App Essay and Colorado College</a>
+<a href="/img/applications/supp-4-oa-colorado-common.pdf" target="_blank">Common App Essay</a> &mdash; rejected, Colorado College
