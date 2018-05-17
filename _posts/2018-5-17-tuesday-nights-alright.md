@@ -4,7 +4,7 @@ title: "Tuesday Night&#39;s Alright"
 author: Olivia Alger
 date: 2018-5-17
 image: '/img/tues-night.png'
-description: "&ldquo;I’ve learned more about what it means to be alive by spending this year in the “real” world than I feel I could have on a college campus...&rdquo; &mdash; O. Alger"
+description: "&ldquo;I’ve learned more about what it means to be alive by spending this year in the 'real' world than I feel I could have on a college campus...&rdquo; &mdash; O. Alger"
 ---
 
 Last week, when I finished my first month living abroad in the orange tiled apartment of a French woman named Nadine, I walked down to a bar where a girl I know sings in Spanish every Tuesday night. It was like a teeny technicolor version of Rick’s cafe from Casablanca -- a cramped room dimly lit in red, the windows fogged with heat, a man at a wooden piano and a boy on bongos. The girl sang through the hazy space and waved as I unwound my scarf, the few people inside swaying sentimentally to the music.
@@ -31,4 +31,4 @@ _Olivia Alger was a 2016 YoungArts Finalist and a 2017 Presidential Scholar in t
 
 <br><br>
 
-<a href="/img/applications/supp-4-oa-colorado-common.pdf" target="_blank">Common App Essay</a> &mdash; rejected, Colorado College
+<a href="/img/applications/supp-4-oa-colorado-common.pdf" target="_blank">Common App essays</a> &mdash; rejected, Colorado College
