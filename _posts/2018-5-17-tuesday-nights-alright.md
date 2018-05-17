@@ -23,6 +23,12 @@ It’s that kind of emotion, these sacred, foreign experiences, that have deepen
 
 In the bar, as the night swayed on, more people I knew arrived, friends I had met who moved here from Iran, Chile, Greece, Canada, and Equatorial Guinea, all of us speaking in broken French and undercurrents of English. We sat for awhile, staying warm. Then we stood. Then we danced. “You’re so young!” they told me, laughing, as the bar began to empty and the music grew louder yet softer at the same time. “You have so many chances!” We laughed, and we hugged, and I walked back to Nadine’s late with warmth in my chest, passing the open windows of first floor apartments where cigarettes glowed orange people flicked ash onto the sidewalk and talked with passersby asking for a light, thinking about how many chances I really do have.
 
+<br>
+<br>
+<br>
+
+_Olivia Alger was a 2016 YoungArts Finalist and a 2017 Presidential Scholar in the Arts Nominee. Her work has appeared in ten journals and has been recognized by the Scholastic Art and Writing Awards, among others. She lives in the Chicago suburbs. She graduated from Interlochen Arts Academy as a creative writing major and is headed to University of Rochester to continue studying her passion._
+
 <br><br>
 
 <a href="/img/applications/supp-4-oa-colorado-common.pdf" target="_blank">Common App Essay</a> &mdash; rejected, Colorado College
