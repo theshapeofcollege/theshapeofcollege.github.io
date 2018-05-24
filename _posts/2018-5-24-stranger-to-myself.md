@@ -98,4 +98,4 @@ a stranger to myself.
 
 <br><br><br>
 
-_bio blurb here_
+_Alex Plum is a freshman at the University of Wisconsin - Madison majoring in Engineering Physics, Mathematics, and Computer Science. Hailing from Milwaukee Wisconsin, he enjoys good books, long runs, deep questions, and seeing sunsets over water. He looks forward to a lifetime of learning, connecting and creating with others._
