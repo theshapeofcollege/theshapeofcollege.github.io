@@ -73,12 +73,12 @@ more time in the present and find contentment. At Madison, I found it.
 The handoff of the baton went smoother than I had expected, as if life and death were some
 seamless transition. In my first weeks at Madison, I stopped running in circles and instead slowed to
 catch my breath. I made new friends, stayed in touch with old ones, and let life speed up naturally
-around me. I loved exploring the campus, it's hills hiding districts diverse in architecture and era, from
+around me. I loved exploring the campus, its hills hiding districts diverse in architecture and era, from
 red tile roofs to the hypermodern. It’s an academic labyrinth with urban and natural environments
 packed tightly between between city and shore.
 
 After about a month, I received the opportunity to participate in research on the origins of life. I
-had never taken a class in biology let alone done research on it’s genesis. When researching colleges,
+had never taken a class in biology let alone done research on its genesis. When researching colleges,
 this sort of thing had never been part of my search criteria and yet, it’s been the most fulfilling aspect of my time in college so far. Conducting research alongside professors and post-docs, I found camaraderie
 that I had never expected; the hierarchy I had expected collapsed under the weight of curiosity and
 common cause. People from different stages of life, different backgrounds and disciplines, learning
