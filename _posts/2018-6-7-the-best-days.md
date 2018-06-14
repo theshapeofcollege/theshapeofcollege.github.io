@@ -50,7 +50,7 @@ started to feel like I was truly living the best days of my life.
 
 My biggest fear upon graduation was that I would limit the best days of my life to
 college. It takes effort to wake up every day and dwell on the fact that those days will
-never return. It takes less effort to remember them for what they were; great times, and
+never return. It takes less effort to remember them for what they were&mdash;great times&mdash;and
 look forward to the many great times that lie ahead. In reality, life is comprised of
 stages. Each stage presents its own difficulties and lessons. College is a unique stage
 because the first taste of independence is always the sweetest. To this day, I truly
